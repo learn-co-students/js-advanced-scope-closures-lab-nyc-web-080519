@@ -16,6 +16,10 @@ const produceTipCalculator = function(percent) {
     };
 }
 
+// we need to create a function that returns a class;
+// we then need to set a constructor for name and set
+// the id to increment by 1 and set the name to name;
+// we also need to set driverId to 0 before we set the class;
 function createDriver() {
     let driverId = 0
     return class {
